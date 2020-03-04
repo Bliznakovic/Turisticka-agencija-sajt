@@ -1,0 +1,94 @@
+<!DOCTYPE>
+<head>
+<meta charset="utf-8" />
+<title>osmanlije Tours</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="assets/default.css" rel="stylesheet" />
+<link rel="stylesheet" href="fonts/font-awesome.min.css"> 
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="index.html">osmanlije Tours</a></h1>
+				<p align="center">500 godina sa vama</p>
+			</div>
+			<div id="social">
+				<ul class="contact">
+					<li><a href="#" class="fa fa-twitter" style="font-size: 40px"></a></li>
+					<li><a href="#" class="fa fa-facebook-square" style="font-size: 40px"></a></li>
+					<li><a href="#" class="fa fa-instagram" style="font-size: 40px"></a></li>
+					<li><a href="#" class="fa fa-youtube-play" style="font-size: 40px"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="menu" class="container-input">
+			<ul>
+				<li><a href="index.html" title="">Početna</a></li>
+				<li><a href="ponude.html" accesskey="1" title="">Ponude</a></li>
+				<li><a href="galerija.html" accesskey="2" title="">Galerija</a></li>
+				<li class="current"><a href="rezervacija.html" accesskey="3" title="">Rezervacije i kupovina</a></li>
+				<li><a href="onama.html" accesskey="4" title="">O nama</a></li>
+			</ul>
+		</div>
+<div class="form-input">
+            <form name="MojaForma" action="" method="post">
+            <table align="center">
+                <tr>
+                    <td><label class="form-label" for="user"> Ime i prezime</label></td>
+                    <td><input class="form-input" type="text" id="user" minlength="3" required autofocus></td>
+                </tr>
+                <tr>
+                    <td><label class="form-label" for="email"> E-mail adresa</label></td>
+                    <td><input class="form-input" type="email" id="email" placeholder="example@example.com"></td>
+                </tr>
+               
+                    <td><label class="form-label" for="mobile"> Mobilni telefon</label></td>
+                    <td><input class="form-input" type="tel" id="mobile" pattern=""></td>
+                    
+                <tr>
+                    <td><label class="form-label" for="date"> Datum prijave</label></td>
+                    <td><input class="form-input" type="date" id="date" value="DD/MM/YYYY"></td>
+                </tr>
+                <tr>
+                    <td><label  for="gender"> Prevoz</label></td>
+                    <td><input  type="radio" name="prevoz" value="autobus" id="nas"> Autobus <input type="radio" name="trip" value="kola" id="vas">Kola
+                    <input type="radio" name="trip" value="avion" id="vas">Avion
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label class="form-label" for="lang"> Lokacija</label></td>
+                    <td><select name="lang" id="lang">
+                        <option>Sardinija</option>
+                        <option>Rodos</option>
+                        <option>Garmisch-Partenkirchen</option>
+                        <option>Jahorina</option>
+                        <option>Portorož</option>
+                        <option>Terme Čatež</option>
+                        <option>Halkidiki</option>
+                        <option>Kasandra</option>
+                        <option>Apsrovalta</option>
+                        <option>Tasos</option>
+                        <option>Sitonija</option>
+                        <option>Halkidiki</option>
+                        
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label  for="condition">Uslovi korišćenja</label></td>
+                    <td><input  type="checkbox" name="condition" required> Slažem se sa uslovima korišćenja</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit" class="btn">
+                        <span class="top content"> Registruj se</span>
+                        <span class="bottom content"> Odmah!</span>
+                    </button></td>
+                </tr>
+            </form>
+        </table>
+    </div>  
+</body>
+</html>
